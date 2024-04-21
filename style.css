@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(133, 226, 226);
+    font-family: "Merriweather";
+    color: #1d2131;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: rgb(51, 144, 144);
+}
+
+.graphist-description {
+    font-size: 1.45rem;
+    font-weight: 400;
+
+}
+
+.graphist-quote {
+    font-style: italic;
+    font-size: 1.35rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 1rem;
+}
+
+.card-container {
+    background-color: rgb(225, 251, 251);
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 30%;
+    height: 100%;
+    box-shadow: 1rem 1rem #1d2131;
+    border: 0.15rem solid #1d2131;
+    padding: 2rem 1rem;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border-radius: 0,65rem;
+}
+
+.card-button {
+    background-color:rgb(56, 165, 215);
+    color: #e4ebff;
+    border-radius: 0.75rem;
+    border-style: none;
+    padding: 0.5rem 1rem;
+    font-family: "Merriweather";
+    font-size: 1.35rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    h1 {
+        font-size: 1,15rem;
+    }
+
+    .card-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .graphist-quote {
+        font-size: 0.9rem;
+        width: 100%;
+        margin: 1rem 0;
+    }
+    
+}
